@@ -5,3 +5,5 @@ class UsageError(Exception):
         super(UsageError, self).__init__(error)
 
 class InvalidUrl(NotImplementedError): pass
+class WorkingFolderStructureError(Exception): pass
+class WorkingFolderAlreadyExists(Exception): pass
